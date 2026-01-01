@@ -20,6 +20,24 @@ const About = () => {
             <p className="text-muted-foreground text-lg leading-relaxed">
               We are a leading provider of industrial automation solutions, delivering cutting-edge 
               machinery and technology to businesses across industries.
+              We started the journey in the year 1996 as machine reconditioning and service company. Over the year of gained experience and expertise we are now one of the leading machine builders.  
+We are team players with expertise in Design, Mechanical, Electrical & Software programming who execute the projects in very efficient way.
+
+Our Business expands to….
+Special Purpose Machine building.
+Industrial Automation.
+Advanced Controls Retrofitting.
+Old Machine Reconditioning.
+Mfg. of Conventional electronic controls. 
+Process automation & Robotics handling.
+
+Our Team:
+Project Head
+Designer
+Procurement
+Programmers
+Electrical & Mechanical installation
+
               
             </p>
           </div>
