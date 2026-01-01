@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Cog, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import logo from "@/assets/logo.jpeg";
 
 interface NavbarProps {
   isAuthenticated?: boolean;
@@ -16,10 +17,8 @@ export const Navbar = ({ isAuthenticated, onLogout }: NavbarProps) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center border border-primary/30 group-hover:glow-primary transition-all duration-300">
-              <Cog className="w-6 h-6 text-primary animate-spin" style={{ animationDuration: '8s' }} />
-            </div>
+          <Link to="/" className="flex items-center gap-3 group">
+            <img src={logo} alt="Gayathri Technocrats Logo" className="w-10 h-10 object-contain" />
             <span className="font-display font-bold text-lg tracking-wider text-foreground">
               GAYATHRI <span className="text-primary">TECHNOCRATS</span>
             </span>

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Cog, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import logo from "@/assets/logo.jpeg";
 
 export const Footer = () => {
   return (
@@ -8,10 +9,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <Link to="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center border border-primary/30">
-                <Cog className="w-6 h-6 text-primary" />
-              </div>
+            <Link to="/" className="flex items-center gap-3 mb-4">
+              <img src={logo} alt="Gayathri Technocrats Logo" className="w-10 h-10 object-contain" />
               <span className="font-display font-bold text-lg tracking-wider text-foreground">
                 GAYATHRI <span className="text-primary">TECHNOCRATS</span>
               </span>
