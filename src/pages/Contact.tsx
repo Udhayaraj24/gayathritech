@@ -126,9 +126,11 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-muted-foreground text-sm">
-                        Industrial Area, Phase 2<br />
-                        Chennai, Tamil Nadu 600001<br />
-                        India
+                        GAYATHRI TECHNOCRATS <br />
+                        1/281, MOOKANDAPALLI <br />
+                        HOSUR – 635 126 <br />
+                        TAMIL NADU <br />
+                        INDIA 
                       </p>
                     </div>
                   </div>
@@ -140,8 +142,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
                       <p className="text-muted-foreground text-sm">
-                        +91 98765 43210<br />
-                        +91 44 2345 6789
+                        +91-9994496112  <br />
+                        +91- 9944272112
                       </p>
                     </div>
                   </div>
@@ -153,8 +155,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
                       <p className="text-muted-foreground text-sm">
-                        info@gayathritechnocrats.com<br />
-                        sales@gayathritechnocrats.com
+                        gtech-hosur@hotmail.com<br />
+                        gtech.hosur@gmail.com
                       </p>
                     </div>
                   </div>
@@ -178,7 +180,7 @@ const Contact = () => {
               <div className="bg-card border border-border rounded-xl p-6 h-64 flex items-center justify-center">
                 <div className="text-center text-muted-foreground">
                   <MapPin className="w-12 h-12 mx-auto mb-3 opacity-50" />
-                  <p className="text-sm">Map integration available upon request</p>
+                  <p className="text-sm"> https://maps.app.goo.gl/NchGmTAEj3XKc1439 </p>
                 </div>
               </div>
             </div>
