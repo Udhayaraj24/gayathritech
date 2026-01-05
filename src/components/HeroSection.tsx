@@ -53,11 +53,6 @@ export const HeroSection = () => {
               Watch Demo
             </Button>
           </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-border/50 animate-fade-in" style={{ animationDelay: '0.5s' }}>
-            
-          </div>
         </div>
       </div>
     </section>
