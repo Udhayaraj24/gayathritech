@@ -176,13 +176,19 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
-              <div className="bg-card border border-border rounded-xl p-6 h-64 flex items-center justify-center">
-                <div className="text-center text-muted-foreground">
-                  <MapPin className="w-12 h-12 mx-auto mb-3 opacity-50" />
-                  <p className="text-sm"> https://maps.app.goo.gl/NchGmTAEj3XKc1439 </p>
-                </div>
+              {/* Google Map */}
+            <div className="bg-card border border-border rounded-xl overflow-hidden h-64">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3891.4156143061987!2d77.7917508!3d12.7514994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae7102ee59e99f%3A0x805360ab6dfc5cff!2sGayathri%20Technocrats%20Hosur!5e0!3m2!1sen!2sin!4v1767590674619!5m2!1sen!2sin"
+    className="w-full h-full border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    title="Gayathri Technocrats Location"
+  />
               </div>
+
+              
             </div>
           </div>
         </section>
