@@ -1,5 +1,4 @@
 const customers = [
-  texts = [
     " TATA ELECTRONICS ",
     " INDIA NIPPON ELECTRICALS LTD ",
     " ABB LTD ",
