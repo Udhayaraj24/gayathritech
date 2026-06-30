@@ -91,6 +91,17 @@ export const Footer = () => {
           <p className="text-muted-foreground text-sm">
             © 2024 Gayathri Technocrats. All rights reserved.
           </p>
+          <p className="text-muted-foreground text-sm">
+            Developed & maintained by{" "}
+            <a
+              href="https://wa.me/919600543617"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary font-semibold hover:underline"
+            >
+              TECHFOX
+            </a>
+          </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
               Privacy Policy
